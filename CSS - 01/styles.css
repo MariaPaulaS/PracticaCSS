@@ -1,0 +1,21 @@
+/*Se comenta como en Java*/
+
+:root{
+
+    --color: green;
+}
+
+/*Regla CSS - Bloque completo
+body: selector
+background, color : declaracion
+*/
+body{
+    background: var(--color);
+    color: white;
+}
+
+h1{
+background: white;
+color: var(--color);
+
+}
